@@ -1,0 +1,10 @@
+img {
+    width: 50px;
+    height: 20;
+    margin-right: 20px;
+}
+
+.navbar {
+    background-color: red;
+    color: white;
+}

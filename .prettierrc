@@ -1,0 +1,20 @@
+{
+    "overrides": [
+        {
+            "files": "*.ts",
+            "options": {
+                "semi": true,
+                "trailingComma": "none",
+                "singleQuote": true,
+                "printWidth": 80,
+                "useTabs": true
+            }
+        },
+        {
+            "files": "*.html",
+            "options": {
+                "tabWidth": 4
+            }
+        }
+    ]
+}
