@@ -1,0 +1,9 @@
+<h1>Danh sách nhân viên</h1>
+<ul>
+    {{#each staff}}
+    <li>{{this.name}} - {{this.position}} - {{this.salary}}</li>
+    {{/each}}
+
+    <h2>Tổng lương: {{totalSalary}}</h2>
+    
+</ul>

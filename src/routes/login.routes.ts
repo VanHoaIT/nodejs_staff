@@ -1,6 +1,6 @@
 import { Router } from 'express';
 const router = Router();
-const loginController = require('../controllers/loginController')
+const loginController = require('../controllers/loginController');
 
 router.get('/:slug', loginController.loginStaff);
 

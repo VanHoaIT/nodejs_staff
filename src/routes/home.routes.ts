@@ -1,6 +1,6 @@
-import { Router } from 'express'
+import { Router } from 'express';
 const router = Router();
-const homeController = require('../controllers/homeController')
+const homeController = require('../controllers/homeController');
 
 router.get('/:slug', homeController.about);
 
